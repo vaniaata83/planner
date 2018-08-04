@@ -1,0 +1,260 @@
+/* Algemeine TAGS */
+html {
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background:transparent;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Tahoma, serif;
+    background-image: linear-gradient(to bottom, #869960, #fff, #869960);
+}
+
+header {
+    text-align: center;
+}
+
+header  {
+    background-color: #C4CDB2;
+    position: relative;
+}
+
+header ul {
+    padding: 0;
+    margin: 0;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    display: block;
+    background-color: #869960;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 12px 24px;
+    width: 100%
+}
+header ul li  button {
+    display: block;
+    border-radius: 0px;
+    background-color: #869960;
+    text-decoration: none;
+    color: black;
+    border: 0px;
+    text-align: center;
+    padding: 12px 24px;
+    width: 100%
+}
+header  ul li a:hover{
+    color: white;
+    background-color: gray;
+}
+header ul li button:hover{
+    color: white;
+    background-color: gray;
+}
+
+#main {
+
+}
+
+#main  {
+    border-top: 3px solid #869960;
+}
+
+#content {
+
+}
+
+#aside {
+    font-size: 90%;
+    background: linear-gradient(to bottom, #C4CDB2, #FFF);
+}
+
+footer {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 87%;
+}
+
+/* Pada6toto Menü */
+.hide {
+    display: none;
+}
+
+.menue {
+    position: absolute;
+    padding: 10px 25px;
+    background-color: #555555;
+    color: white;
+    bottom: 10px;
+    right: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 120%;
+    transition: 3s;
+}
+
+.menue:hover {
+    box-shadow: inset 5px 5px 15px #FFF, 10px 5px 15px #FFF;
+/ / transform: rotate(15 deg);
+    transform: scale(1.05);
+/ / transform: rotate(- 15 deg);
+}
+
+/* Algemeine CLASS's , DIV's TAG's*/
+.container {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    opacity: 0.8;
+    transition: 2s;
+}
+
+/*img:hover{
+	opacity: 1;
+	transform:rotateY(360deg) scale(1.25);
+	position: relative;
+	z-index: 100;}*/
+
+.foto {
+
+}
+
+.banner {
+
+}
+
+.foto {
+    position: relative;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.banner {
+    position: absolute;
+    background-color: #000000;
+    color: #fff;
+    opacity: 0.7;
+    bottom: 0;
+    left: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    transform: translateY(100%);
+    transition: 1s;
+}
+
+.foto:hover .banner {
+    transform: translateY(0%);
+}
+
+.foto:hover img {
+    opacity: 1;
+}
+
+.foto:hover {
+    transform: scale(1.1);
+    position: relative;
+    z-index: 2;
+}
+
+.fotoFloat {
+    float: left;
+}
+
+/* Algemeine DIV's */
+.noMarginTop {
+    margin-top: 0;
+}
+
+.width25Pro {
+    max-width: 25%;
+}
+
+/*.nav-tabs {*/
+/*margin-bottom: 15px;*/
+/*}*/
+/*.sign-with {*/
+/*margin-top: 25px;*/
+/*padding: 20px;*/
+/*}*/
+/*div#OR {*/
+/*height: 30px;*/
+/*width: 30px;*/
+/*border: 1px solid #C2C2C2;*/
+/*border-radius: 50%;*/
+/*font-weight: bold;*/
+/*line-height: 28px;*/
+/*text-align: center;*/
+/*font-size: 12px;*/
+/*float: right;*/
+/*position: absolute;*/
+/*right: -16px;*/
+/*top: 40%;*/
+/*z-index: 1;*/
+/*background: #DFDFDF;*/
+/*}*/
+
+.nav-tabs {
+    margin-bottom: 15px;
+}
+
+.sign-with {
+    margin-top: 25px;
+    padding: 20px;
+}
+
+div#OR {
+    height: 30px;
+    width: 30px;
+    border: 1px solid #C2C2C2;
+    border-radius: 50%;
+    font-weight: bold;
+    line-height: 28px;
+    text-align: center;
+    font-size: 12px;
+    float: right;
+    position: absolute;
+    right: -16px;
+    top: 40%;
+    z-index: 1;
+    background: #DFDFDF;
+}
+
+#header{
+    margin-top: -20px;
+}
+
+.modal-body a{
+    display: block;
+    border-radius: 0px;
+    background-color: #869960;
+    text-decoration: none;
+    color: black;
+    border: 0px;
+    text-align: center;
+    padding: 12px 24px;
+}
+
+.modal-body a:hover{
+    color: white;
+    background-color: gray;
+}
+
+
+
